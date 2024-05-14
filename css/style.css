@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background: rgb(0, 36, 32);
+	background: linear-gradient(90deg, rgba(0, 36, 32, 0.7764355742296919) 0%, rgba(9, 121, 82, 1) 0%, rgba(0, 212, 255, 0.9865196078431373) 100%);
+}
+
+
+h1 {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.form_block {
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+
+input {
+	background: #fff;
+	margin-right: 20px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	padding-left: 5px;
+}
+
+label {
+	background: none;
+	display: inline-block	;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.buttons {
+	background: none;
+	margin-left: 265px;
+	margin-top: 50px;
+}
+
+button {
+	background: none;
+	border: none;
+	color: #000;
+	background-color: #fff;
+	font-size: 20px;
+	padding: 5px 15px;
+	border-radius: 12px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.info_wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info_card {
+	margin-top: 50px;
+	background: none;
+	display: flex;
+	justify-content: center;
+	background-color :#fff;
+	width: 400px;
+	padding: 12px;
+	border-radius: 8px;
+}
